@@ -19,7 +19,8 @@
 body {
   color: rgb(var(--foreground-rgb));
   background-image: url(/images/bg2.jpg);
-  background-size: 200%;
+  background-size: 100%;
   background-position: center;
+  background-attachment: fixed;
 
 }
