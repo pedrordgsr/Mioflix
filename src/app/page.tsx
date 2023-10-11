@@ -17,7 +17,7 @@ export default function Home() {
       
       <div className='flex justify-between z-50'>
         <h1 className='font-bold text-3xl z-50'>Bem vindo, Usuário</h1>
-        <h1 className='font-bold text-3xl z-50 text-red-500'>PedroFlix</h1>
+        <h1 className='font-bold text-3xl z-50 text-red-600'>PedroFlix</h1>
       </div>
       <div className='z-50 mt-80 w-1/3 flex flex-col gap-3'>
         <h1 className='text-4xl'>Peaky Blinders</h1>
@@ -34,6 +34,10 @@ export default function Home() {
           <span>4 Temporadas</span>
         </div>
         <span>Uma notória gangue da Inglaterra de 1919 ascende no submundo liderada pelo cruel Tommy Shelby, um criminoso disposto a subir na vida a qualquer preço.</span>
+        <div className='gap-2 flex'>
+          <button className='bg-red-600 px-3 py-1 hover:bg-red-700'>Assistir</button>
+          <button>Adicionar na lista</button>
+        </div>
       </div>
       <h1 className='mb-2 text-2xl mt-10 z-50 font-bold'>Lançamentos da Semana</h1>
       <div className='flex gap-5 flex-row z-50 overflow-x-scroll p-5 transition-all'>
