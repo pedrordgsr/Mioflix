@@ -18,9 +18,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-image: url(/images/bg2.jpg);
+  background-color: #000416;
   background-size: 100%;
   background-position: center;
-  background-attachment: fixed;
+
 
 }

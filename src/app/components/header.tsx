@@ -3,9 +3,11 @@ import Link from 'next/link'
 
 export default function Header() {
     return (
-<div className="fixed top-0 left-0 z-40 w-16 h-screen flex flex-col justify-evenly pt-4 pb-4 px-5 text-lg backdrop-blur bg-neutral-900/30">
+<div className="fixed top-0 left-0 z-40 w-16 h-screen flex flex-col justify-evenly pt-4 pb-4 px-4 text-lg backdrop-blur bg-neutral-900/30">
 <Link href="/"><img src="/images/home.png"></img></Link>
-<Link href="/"><img src="/images/menu.png"></img></Link>        
+<Link href="/"><img src="/images/procurar.png"></img></Link>
+<Link href="/"><img src="/images/menu.png"></img></Link> 
+<Link href="/"><img src="/images/definicoes.png"></img></Link>       
    <Link href="/login">     <div className='flex'>
         <Image className='rounded-full me-4'
       src="/avatar.jpg"
